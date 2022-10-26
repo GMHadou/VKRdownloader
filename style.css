@@ -317,3 +317,42 @@
    font-size: 30px;
    }
    }
+   .Underline{
+    text-decoration: underline;
+        display: block;
+        margin-left: 45%;
+        height: 60px;
+        width:130px;
+        line-height: 60px;
+    
+        -moz-border-radius:50%; /* or 50% */
+        border-radius:50%; /* or 50% */
+    
+        background-color: rgb(255, 0, 0);
+        color: white;
+        text-align:center;
+        font-size: 2em;
+    }
+
+    #distancia1{
+margin-top:20px;
+    }
+#distancia2{
+    font-size:1em;
+    margin-top:30px;
+}
+#manual{
+    text-decoration: underline;
+        display: block;
+        height: 60px;
+        width:120;
+        line-height: 60px;
+    
+        -moz-border-radius:50%; /* or 50% */
+        border-radius:50%; /* or 50% */
+    
+        background-color: rgb(255, 0, 0);
+        color: white;
+        text-align:center;
+        font-size: 2em;
+    }
