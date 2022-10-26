@@ -11,7 +11,6 @@
    <body>
       <header>
          <input type="checkbox" id="menu" name="menu">
-         <img class="shadow" src="logo.png" alt="Logo">
          <nav>
             <ul>
               <a onclick="retorno()"><li class="shadow">Home</li></a>
@@ -28,8 +27,9 @@
          </div>
       </header>
       <div id="form">
-         <input id="inputUrl" type="url" placeholder="Enter URL">
-         <input id="downloadBtn" type="submit" value="Download">
+         <input id="inputUrl" type="url" placeholder="Insira URL">
+         <input class="downloadBtn" type="submit" value="Download">
+         <input id="downloadBtn" type="submit" value="Avançado">
       </div>
       <div id="container">
          <div id="loading">
@@ -49,10 +49,9 @@
          <h2>
           Download de Videos
          </h2>
-         <h3>Lembre-se sempre de usar o URL específico do vídeo do TIK TOK,Facebook,etc...</h3>
-         <p>Lembre-se também que o download deve ser feito manualmente,salvando o vídeo[clique com o botão direito
-         do mouse]!
-         <h4>Créditos a Vijay Kumar</h4>
+         <h3 id='distancia1'>Lembre-se sempre de usar o <span class='Underline'>URL</span>específico do vídeo do TIK TOK,Facebook,etc...</h3>
+         <h4 id='distancia2'>Lembre-se também que o download deve ser feito manualmente salvando o vídeo ou música</h4>
+         <p>Créditos a Vijay Kumar</p>
       <script type="text/javascript" src="javascript.js"></script>
       <script>
          function retorno() {
@@ -61,4 +60,5 @@
       </script>
    </body>
 </html>
+
 
